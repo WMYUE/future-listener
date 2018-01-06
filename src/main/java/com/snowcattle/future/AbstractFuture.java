@@ -16,6 +16,7 @@ public class AbstractFuture<V> implements ITaskFuture<V> {
     //测一下1.0.0
     //在测一下1.0.0
     //tag1.2.0
+    //tag1.3.0
     /**
      * 当任务正常执行结果为null时, 即客户端调用{@link AbstractFuture#setSuccess(null)}时,
      * result引用该对象
