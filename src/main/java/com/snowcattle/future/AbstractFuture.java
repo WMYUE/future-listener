@@ -14,6 +14,7 @@ public class AbstractFuture<V> implements ITaskFuture<V> {
     protected Collection<ITaskFutureListener> listeners = new CopyOnWriteArrayList<ITaskFutureListener>();
     //future怎么用呢
     //测一下1.0.0
+    //在测一下1.0.0
     /**
      * 当任务正常执行结果为null时, 即客户端调用{@link AbstractFuture#setSuccess(null)}时,
      * result引用该对象
